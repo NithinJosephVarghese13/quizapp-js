@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RiffTrivia</title>
+
+    <link rel="icon" type="" href="">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <body>
+        <div class="video-background">
+            <video autoplay loop muted playsinline>
+                <source src="/hero-m.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="content-wrapper">
+            <main>
+                <section class="quiz">
+                    <div class="heading">
+                        <p class="title">RiffTrivia</p>
+                        <p class="subtitle">Test your metal guitar knowledge with our ultimate MetalTheoryQuiz!</p>
+                        <br><br>
+                    </div>
+                    <div class="result hide">
+                        <p>You scored 5/5!</p>
+                        <p class="reload">
+                            <button onclick="reloadPage()">Try Again?</button>
+                        </p>
+                    </div>
+                    <form action="" class="quiz-form">
+                        <div class="question">
+                            <p>1. Which scale is most commonly associated with metal guitar solos?</p>
+                            <div class="option">
+                                <input type="radio" name="q1" value="A" checked>
+                                <label for="">Major Scale</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q1" value="B">
+                                <label for="">Pentatonic Scale</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q1" value="C">
+                                <label for="">Harmonic Minor Scale</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q1" value="D">
+                                <label for="">Blues Scale</label>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <p>2. What interval is typically used to create a "power chord"?</p>
+                            <div class="option">
+                                <input type="radio" name="q2" value="A" checked>
+                                <label for="">Major third</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q2" value="B">
+                                <label for="">Perfect fifth</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q2" value="C">
+                                <label for="">Minor third</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q2" value="D">
+                                <label for="">Augmented fourth</label>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <p>3. Which of the following modes is often used in metal for its dark and mysterious sound?
+                            </p>
+                            <div class="option">
+                                <input type="radio" name="q3" value="A" checked>
+                                <label for="">Ionian</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q3" value="B">
+                                <label for="">Dorian</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q3" value="C">
+                                <label for="">Phrygian</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q3" value="D">
+                                <label for="">Lydian</label>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <p>4. Which type of scale is characterized by alternating whole and half steps and is used
+                                to create
+                                a sense of tension in metal music?</p>
+                            <div class="option">
+                                <input type="radio" name="q4" value="A" checked>
+                                <label for="">Whole Tone Scale</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q4" value="B">
+                                <label for="">Chromatic Scale</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q4" value="C">
+                                <label for="">Diminished Scale</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q4" value="D">
+                                <label for="">Augmented Scale</label>
+                            </div>
+                        </div>
+                        <div class="question">
+                            <p>5. What scale degree is flattened in the Phrygian mode to give it its distinctive sound?
+                            </p>
+                            <div class="option">
+                                <input type="radio" name="q5" value="A" checked>
+                                <label for="">Second</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q5" value="B">
+                                <label for="">Third</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q5" value="C">
+                                <label for="">Fifth</label>
+                            </div>
+                            <div class="option">
+                                <input type="radio" name="q5" value="D">
+                                <label for="">Seventh</label>
+                            </div>
+                        </div>
+                        <div class="submit">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </section>
+            </main>
+        </div>
+
+        <script src="/index.js"></script>
+    </body>
+
+</html>
